@@ -8,7 +8,7 @@ axios.interceptors.request.use((config) => {
     if (isLoggedIn()) {
       config.headers = {
         ...config,
-        'Beaer': getAccessToken(),
+        'Beaer': getAccessToken() || 'dfsdfsdfsdfsd',
       };
     }
     return config;
@@ -19,9 +19,10 @@ axios.interceptors.request.use((config) => {
 
 export default {
   register(username, password) {
-    return axios.post('/user', {
+    return axios.post('/users', {
       username,
       password,
+      extra: 'sdkfsdfsd',
     });
   }
 }

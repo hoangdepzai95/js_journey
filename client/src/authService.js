@@ -1,5 +1,5 @@
 export function isLoggedIn() {
-  return false;
+  return true;
 }
 
 export function getAccessToken() {

@@ -4,6 +4,8 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import createSagaMiddleware from 'redux-saga';
 import './index.css';
+import 'semantic-ui-css/semantic.min.css';
+import './style.css';
 import App from './Components/App';
 import { Router, Route } from 'react-router';
 import createBrowserHistory from 'history/createBrowserHistory';

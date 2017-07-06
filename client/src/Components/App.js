@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import { Route } from 'react-router';
 import Logged from './Logged';
 import Login from './Login';
-import Register from './Register';
+import User from './User';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Route path='/login' component={Login} />
-        <Route path='/register' component={Register} />
+        <Route path='/user' component={User} />
         <Route path='/home' component={Logged} />
       </div>
     );
