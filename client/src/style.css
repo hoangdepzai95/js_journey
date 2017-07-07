@@ -4,3 +4,29 @@
   margin: auto;
   border: 1px solid #ccc;
   margin-top: 50px; }
+  .user .tab {
+    display: flex; }
+    .user .tab .item {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      background-color: #fafafa;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+      font-size: 20px;
+      color: #979faf; }
+    .user .tab .item:first-child {
+      border-right: 1px solid #ccc; }
+    .user .tab .active {
+      background-color: #FFF;
+      border-bottom: 0;
+      color: #333;
+      font-weight: bold; }
+  .user .main {
+    padding: 20px; }
+
+body {
+  font-family: "Whitney SSm A", "Whitney SSm B", "AvenirNext-Regular", "Segoe UI", "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.text-center {
+  text-align: center; }

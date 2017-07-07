@@ -4,4 +4,29 @@
   margin: auto;
   border: 1px solid #ccc;
   margin-top: 50px;
+  .tab {
+    display: flex;
+    .item {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      background-color: #fafafa;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+      font-size: 20px;
+      color: #979faf;
+    }
+    .item:first-child {
+      border-right: 1px solid #ccc;
+    }
+    .active {
+      background-color: #FFF;
+      border-bottom: 0;
+      color: #333;
+      font-weight: bold;
+    }
+  }
+  .main {
+    padding: 20px;
+  }
 }
