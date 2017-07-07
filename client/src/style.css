@@ -1,12 +1,12 @@
-.user {
+.user-page {
   width: 70%;
   max-width: 450px;
   margin: auto;
   border: 1px solid #ccc;
   margin-top: 50px; }
-  .user .tab {
+  .user-page .tab {
     display: flex; }
-    .user .tab .item {
+    .user-page .tab .item {
       flex: 1;
       text-align: center;
       padding: 20px;
@@ -15,14 +15,14 @@
       cursor: pointer;
       font-size: 20px;
       color: #979faf; }
-    .user .tab .item:first-child {
+    .user-page .tab .item:first-child {
       border-right: 1px solid #ccc; }
-    .user .tab .active {
+    .user-page .tab .active {
       background-color: #FFF;
       border-bottom: 0;
       color: #333;
       font-weight: bold; }
-  .user .main {
+  .user-page .main {
     padding: 20px; }
 
 body {
@@ -30,3 +30,12 @@ body {
 
 .text-center {
   text-align: center; }
+
+.text-danger {
+  color: #d43f3a; }
+
+.invalid input {
+  border: 1px solid #d43f3a !important; }
+
+.hide {
+  display: none; }

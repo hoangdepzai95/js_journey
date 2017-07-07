@@ -4,3 +4,12 @@ body {
 .text-center {
   text-align: center;
 }
+.text-danger {
+  color: #d43f3a;
+}
+.invalid input {
+  border: 1px solid #d43f3a !important;
+}
+.hide {
+  display: none;
+}
